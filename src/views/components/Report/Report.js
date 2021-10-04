@@ -12,7 +12,7 @@ const Report = () => {
   useEffect(() => {
     axios({
       method: 'POST',
-      url: 'http://test.elecsis.co/data/',
+      url: 'https://test.elecsis.co/data/',
       data: {
         token: token,
       },

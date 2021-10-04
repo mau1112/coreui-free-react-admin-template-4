@@ -11,7 +11,7 @@ const Charts = () => {
   useEffect(() => {
     axios({
       method: 'POST',
-      url: 'http://test.elecsis.co/graph/',
+      url: 'https://test.elecsis.co/graph/',
       data: {
         token: token,
       },

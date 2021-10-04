@@ -18,8 +18,6 @@ const DataTable = (props) => {
     })
   }, [])
 
-  console.log(props.data)
-
   return (
     <table ref={tableRef}>
       <thead>

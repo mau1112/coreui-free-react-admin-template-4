@@ -44,7 +44,7 @@ const Login = () => {
     e.preventDefault()
     axios({
       method: 'POST',
-      url: 'http://test.elecsis.co/auth/',
+      url: 'https://test.elecsis.co/auth/',
       data: {
         user: username,
         pass: password,
